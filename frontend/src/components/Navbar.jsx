@@ -1,30 +1,34 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import {GiHamburgerMenu} from 'react-icons/gi'
+import { Link } from "react-scroll";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
-  const [show,setShow]=useState(false)
+  const [show, setShow] = useState(false);
+  
   return (
     <nav>
-      <div className="logo">Event Planner</div>
+      <div className="navHeader">
+        <div className="logo">BookMyEvent</div>
+        <div className="tagline"> Every event finds its perfect home</div>
+      </div>
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">
           <Link to="hero" spy={true} smooth={true} duration={500}>
-            HOME
+            Home
           </Link>
           <Link to="services" spy={true} smooth={true} duration={500}>
-            SERVICES
+          Services
           </Link>
           <Link to="about" spy={true} smooth={true} duration={500}>
-            ABOUT
+            About
           </Link>
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            CONTACT
+            Contact
           </Link>
         </div>
       </div>
-      <div className="hamburger" onClick={()=>setShow(!show)}>
-        <GiHamburgerMenu/>
+      <div className="hamburger" onClick={() => setShow(!show)}>
+        <GiHamburgerMenu />
       </div>
     </nav>
   );

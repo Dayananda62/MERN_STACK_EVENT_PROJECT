@@ -5,19 +5,12 @@ const Footer = () => {
     <footer>
       <div className="banner">
         <div className="title">
-          <h1>KING's</h1>
-          <p>Events and Weddings</p>
-        </div>
-        <div className="tag">
-          <label>News Letter</label>
-          <div>
-            <input type="text" placeholder="E-mail" />
-            <button>Subscribe</button>
-          </div>
-          <p>Sign up with your email address to receice news and updates!</p>
+          <h1>BookMyEvent</h1>
+          <p>Every event finds its perfect home</p>
         </div>
       </div>
-    </footer>
+      <p className="copyright">&copy; {new Date().getFullYear()} BookMyEvent. All rights reserved.</p>
+      </footer>
   );
 };
 

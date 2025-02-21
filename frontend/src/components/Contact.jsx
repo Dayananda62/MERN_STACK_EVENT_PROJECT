@@ -42,7 +42,7 @@ const Contact = () => {
         <div className="banner">
           <div className="item">
             <h4>Address</h4>
-            <p>Any where, Any City, 4521</p>
+            <p>Nitte, Mangalore </p>
           </div>
           <div className="item">
             <h4>Call Us</h4>
@@ -50,13 +50,13 @@ const Contact = () => {
           </div>
           <div className="item">
             <h4>Mail Us</h4>
-            <p>abcd@gmail.com</p>
+            <p>bookmyevent@gmail.com</p>
           </div>
         </div>
         <div className="banner">
           <div className="item">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57929.23355645912!2d67.01519255!3d24.8441321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e70a31f45a9%3A0x25e252450977ec12!2sSaddar%20Town%2C%20Karachi%2C%20Sindh!5e0!3m2!1sen!2s!4v1709099958323!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124440.40060563949!2d74.77007160184154!3d12.922979283820597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf488f%3A0x827bbc7a74fcfe64!2sMangaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1740119814509!5m2!1sen!2sin"
               style={{ border: 0, width: "100%", height: "450px" }}
               allowFullScreen=""
               loading="lazy"

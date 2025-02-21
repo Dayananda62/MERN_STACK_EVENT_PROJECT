@@ -3,20 +3,20 @@ import React from "react";
 const About = () => {
   return (
     <section className="about container">
-      <h4>Events</h4>
-      <h2>ABOUT</h2>
+      <h2>ABOUT US</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis
-        voluptas provident animi corrupti dolor, ipsum deleniti perferendis
-        veniam neque labore enim odio ratione. Ad commodi rem corporis soluta
-        sed reprehenderit a quasi nihil, odit aperiam exercitationem? Suscipit
-        rerum quibusdam inventore atque veritatis accusantium excepturi,
-        molestias optio perferendis aliquam harum, amet dolore! Animi
-        consequuntur officiis modi eius cumque reiciendis harum ipsum
-        praesentium numquam fugit? Consequatur eveniet recusandae harum hic. Eum
-        illo praesentium optio accusantium, hic quibusdam delectus voluptatem
-        qui a officiis dolorum minima cum illum culpa doloremque quia quidem aut
-        sed laudantium nam repudiandae sequi similique! Esse natus at quas?
+      Welcome to BookMyEvent, your one-stop solution for seamless event booking and management. Our platform is designed to simplify the process of organizing and attending events, whether it's a corporate conference, wedding, concert, or private gathering.
+      <br /> <br />
+Why Choose Us? <br />
+✅ Easy Booking – Browse and book events effortlessly with our user-friendly interface. <br />
+✅ Customizable Plans – Tailor your events with various options to suit your needs. <br />
+✅ Secure Payments – Hassle-free and secure transactions for a smooth booking experience. <br />
+✅ Real-Time Updates – Get instant notifications about your bookings and event changes. <br />
+✅ 24/7 Support – Our dedicated team is here to assist you at any time.
+<br /> <br />
+At BookMyEvent, we are committed to making event management stress-free and enjoyable. Whether you're an organizer or an attendee, our platform ensures a seamless experience from start to finish.
+
+Let’s make your event unforgettable! 
       </p>
     </section>
   );
